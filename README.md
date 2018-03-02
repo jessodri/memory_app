@@ -17,7 +17,7 @@ How good is YOUR memory?
 During our planning phase we decided we wanted our app to have the following features:
 
 - _levels of difficulty_
-- _include number and word sequences_
+- _include random number and word sequences_
 - _colorize for distinguishing various sections (headings, menu etc)_
 - _wanted it to be simple to play but still challenging_
 
@@ -33,13 +33,28 @@ We also wanted our app layout to flow in a logical and easy to understand manner
     - option to choose difficulty of level
 
 - _game begins_ 
-    - displays sequence for 3 seconds (increased time when higher level is chosen)
+    - displays sequence of numbers/words for 3 seconds (increased time when higher level is chosen)
     - sequence disappears from screen
     - user is asked to retype the sequence (including any spaces)
     - user will be told if their answer is correct or incorrect (a counter will keep score of how many questions they get right)
-    - after 5 questions (10 for medium level, 15 for hard) the user will be told the TOTAL number of questions they got correct/incorrect
+    - after 5 questions the user will be told the TOTAL number of questions they got correct/incorrect
     - user will be automatically moved on to level 2 
-    - above process will repeat
+    - above process will repeat with words instead of numbers
+
+#### Building Process
+
+- _used the rand function to generate our number sequences_
+- _used a random word generator gem to generate our word sequences_
+- _use of colored text to make it more appealing_
+- _we picked 5 gems to use_
+- _used say function to include sound in our app_
+- _created a method containing facts about memory to help show the purpose of our app_
+- _allowed user to choose difficulty level by using a case statment_
+- _used a while loop to prompt user to enter the correct number_ 
+- _created 3 methods (one for each difficulty choice), and another method for level 2_
+- _used the case statement to implement each method_
+- _used system ('clear') to keep the app looking neat for the user_
+- _used variables to collect incorrect and correct inputs by user to display total score at the end of the game_
 
 #### Technical Issues
 
