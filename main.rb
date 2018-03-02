@@ -37,7 +37,7 @@ puts
 
         – that’s 2,500,000 Gigabytes, or 300 years worth of TV.
         """
-        sleep 14
+        sleep 16
         system("clear")
 
         puts """
@@ -47,7 +47,7 @@ puts
         For many of these people, a simple regime of memory strengthing exercises could be a key part in delaying 
         the onset of Alzheimer’s.
         """.colorize(:green)
-        sleep 15
+        sleep 18
         system("clear")
 
         puts "Get ready to test the capacity of YOUR brain"

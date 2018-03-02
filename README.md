@@ -44,17 +44,17 @@ We also wanted our app layout to flow in a logical and easy to understand manner
 #### Building Process
 
 - _used the rand function to generate our number sequences_
-- _used a random word generator gem to generate our word sequences_
-- _use of colored text to make it more appealing_
+- _random word generator gem to generate our word sequences_
+- _colored text to make it more appealing_
 - _we picked 5 gems to use_
-- _used say function to include sound in our app_
+- _say function to include sound in our app_
 - _created a method containing facts about memory to help show the purpose of our app_
 - _allowed user to choose difficulty level by using a case statment_
-- _used a while loop to prompt user to enter the correct number_ 
+- _while loop to prompt user to enter the correct number_ 
 - _created 3 methods (one for each difficulty choice), and another method for level 2_
-- _used the case statement to implement each method_
-- _used system ('clear') to keep the app looking neat for the user_
-- _used variables to collect incorrect and correct inputs by user to display total score at the end of the game_
+- _case statement to implement each of the 3 level difficulty methods_
+- _system ('clear') to keep the app looking neat for the user_
+- _variables to collect incorrect and correct inputs by user to display total score at the end of the game_
 
 #### Technical Issues
 
@@ -76,6 +76,12 @@ Due to our still limited knowledge or a lack of time there were some features th
 - _use modules_
 - _add color coded questions if possible (i.e what color was the number/word you were shown)_
 
+## __Installation__
+
+```
+gem install bundler
+bundle install
+```
 
 ## __Dependencies__
 
